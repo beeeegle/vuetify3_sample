@@ -32,14 +32,14 @@
             nav
         >
             <!-- <v-list-item to="/"><v-icon left>mdi-view-dashboard</v-icon>ダッシュボード</v-list-item> -->
-            <v-list-item to="/"><v-icon left>mdi-account-circle</v-icon>プロフィール</v-list-item>
+            <v-list-item to="/dashboard"><v-icon left>mdi-account-circle</v-icon>プロフィール</v-list-item>
 
             <v-divider></v-divider>
 
             <!-- <v-list-item to="#" class="list-bg"><v-icon left>mdi-clipboard-text-multiple-outline</v-icon>プロジェクト</v-list-item> -->
             <v-list-item to="/info" class="list-bg"><v-icon left>mdi-information-outline</v-icon>お知らせ</v-list-item>
             <v-list-item to="/users" class="list-bg"><v-icon left>mdi-account-group</v-icon>ユーザー</v-list-item>
-            <v-list-item to="#" class="list-bg"><v-icon left>mdi-vuejs</v-icon>デバッグ</v-list-item>
+            <!-- <v-list-item to="#" class="list-bg"><v-icon left>mdi-vuejs</v-icon>デバッグ</v-list-item> -->
         </v-list>
     </v-navigation-drawer>
 </template>

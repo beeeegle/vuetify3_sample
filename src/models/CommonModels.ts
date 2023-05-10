@@ -23,4 +23,9 @@ export class CommonModels {
     }).format(date)
     return d
   }
+  convUnixTimeToDateTime( unixTime: number ): string {
+    if (!Number.isInteger(unixTime)) unixTime = 0
+    const dateTime = new Date(unixTime * 1000)
+    return dateTime.toLocaleDateString() + ' ' + dateTime.toLocaleTimeString()
+  }
 }
