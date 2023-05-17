@@ -26,7 +26,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CommonModels } from '@/utils/CommonModels'
+import { CommonModels } from '@/models/CommonModels'
 
 const comm = new CommonModels()
 const itemsPerPage: number = 10

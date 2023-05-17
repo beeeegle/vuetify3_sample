@@ -47,7 +47,7 @@
 <script lang="ts" setup>
 import { ref, onBeforeMount } from 'vue'
 import { useRouter } from 'vue-router'
-import { piniaStore } from '@/utils/PiniaStore';
+import { piniaStore } from '@/models/PiniaStore';
 
 const store = piniaStore();
 const router = useRouter()
