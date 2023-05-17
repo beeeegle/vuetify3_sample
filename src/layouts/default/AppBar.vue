@@ -3,7 +3,7 @@
         <v-app-bar-nav-icon v-if="isLogin()"
             @click.stop="drawer = !drawer"
         ></v-app-bar-nav-icon>
-        <h2>オートメーションチェック</h2>
+        <h2>オートメーションチェック_</h2>
         <v-spacer></v-spacer>
         <v-icon v-if="isLogin()"
             large
