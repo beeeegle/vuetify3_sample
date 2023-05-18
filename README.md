@@ -1,6 +1,6 @@
 # base
 
-## Project setup
+## git cloneしたら
 
 ```
 # yarn
@@ -8,12 +8,9 @@ yarn
 
 # npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
-### Compiles and hot-reloads for development
+### ローカルで立ち上げるなら
 
 ```
 # yarn
@@ -21,12 +18,9 @@ yarn dev
 
 # npm
 npm run dev
-
-# pnpm
-pnpm dev
 ```
 
-### Compiles and minifies for production
+### ビルドするなら
 
 ```
 # yarn
@@ -34,9 +28,6 @@ yarn build
 
 # npm
 npm run build
-
-# pnpm
-pnpm build
 ```
 
 ### Lints and fixes files
@@ -47,10 +38,15 @@ yarn lint
 
 # npm
 npm run lint
-
-# pnpm
-pnpm lint
 ```
+
+### formatterやらの設定
+
+```
+.vscodeフォルダ
+　└─settings.json
+```
+
 
 ### Customize configuration
 

@@ -2,13 +2,13 @@
     // recommendtions（推奨）
     "recommendations": [
         "dbaeumer.vscode-eslint",
-        "mkaufman.HTMLHint",
         "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker",
+        // "streetsidesoftware.code-spell-checker",
         "EditorConfig.EditorConfig"
     ],
     // unwantedRecommendations（非推奨）
     "unwantedRecommendations": [
-        "hookyqr.beautify"
+        "hookyqr.beautify",
+        "mkaufman.HTMLHint",
     ]
 }
